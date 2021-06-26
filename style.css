@@ -1,0 +1,112 @@
+                    body {
+                        background: #0e7050;
+                        color: #333;
+                        height: 100vh;
+                        margin: 0;
+                        padding: 0;
+                        overflow-x: hidden;
+                    }
+                    
+                    #container {
+                        bottom: 0;
+                        left: 0;
+                        position: fixed;
+                        right: 0;
+                        top: 0;
+                        z-index: -1;
+                    }
+                    
+                    h1 {
+                        size: 100px;
+                        color: #333;
+                        text-align: center;
+                    }
+                    
+                    .bubble {
+                        box-shadow: 0 20px 30px rgba(39, 37, 37, 0.2), inset 0px 10px 30px 5px rgb(180, 180, 187);
+                        height: 220px;
+                        position: absolute;
+                        width: 220px;
+                        font-size: 40px;
+                    }
+                    
+                    .bubble.x1 {
+                        animation: Bubble 23s linear infinite;
+                        left: 5%;
+                        top: 100%;
+                        transform: scale(0.9);
+                    }
+                    
+                    .bubble.x2 {
+                        animation: Bubble 16s linear infinite;
+                        left: 25%;
+                        top: 90%;
+                        transform: scale(0.5);
+                    }
+                    
+                    .bubble.x3 {
+                        animation: Bubble 8s linear infinite;
+                        left: 10%;
+                        top: 40%;
+                        transform: scale(0.7);
+                    }
+                    
+                    .bubble.x4 {
+                        animation: Bubble 10s linear infinite;
+                        left: 20%;
+                        top: 0%;
+                        transform: scale(0.3);
+                    }
+                    
+                    .bubble.x5 {
+                        animation: Bubble 5s linear infinite;
+                        left: 30%;
+                        top: 50%;
+                        left: 80%;
+                        top: 80%;
+                        transform: scale(0.6);
+                    }
+                    
+                    .bubble.x6 {
+                        animation: Bubble 20s linear infinite;
+                        left: 50%;
+                        top: 0%;
+                        transform: scale(0.8);
+                    }
+                    
+                    .bubble.x7 {
+                        animation: Bubble 12s linear infinite;
+                        left: 65%;
+                        top: 75%;
+                        transform: scale(0.5);
+                    }
+                    
+                    .bubble.x8 {
+                        animation: Bubble 15s linear infinite;
+                        left: 80%;
+                        top: 10%;
+                        transform: scale(0.3);
+                    }
+                    
+                    .bubble.x9 {
+                        animation: Bubble 20s linear infinite;
+                        left: 90%;
+                        top: 50%;
+                        transform: scale(0.6);
+                    }
+                    
+                    .bubble.x10 {
+                        animation: Bubble 9s linear infinite;
+                        left: 80%;
+                        top: 80%;
+                        transform: scale(0.3);
+                    }
+                    
+                    @keyframes Bubble {
+                        0% {
+                            top: 1000px;
+                        }
+                        100% {
+                            top: 0px;
+                        }
+                    }
